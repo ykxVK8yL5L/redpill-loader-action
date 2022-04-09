@@ -1,4 +1,4 @@
-name: Build RedPill DSM loader
+name: 7-1-Build RedPill DSM loader
 
 on: 
   workflow_dispatch:
