@@ -32,7 +32,7 @@ case $1 in
   DS3617xs)
         arch="broadwellnk"
         osid="ds3617xs"
-        echo "arch is Bromolow"
+        echo "arch is Broadwellnk"
         ;;
  DS920+)
         arch="geminilake"
