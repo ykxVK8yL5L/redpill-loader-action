@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       dsmodel:
-        description: 'Input Full DSM model [DS3622xs+|RS4021xs+|DVA3221|DS918+|DS920+|DS3615xs|DS3617xs]'
+        description: 'Input Full DSM model [DS3622xs+|RS4021xs+|DVA3221|DS918+|DS920+|DS3615xs]'
         required: true
         default: 'DS3622xs+'
       os_version:
