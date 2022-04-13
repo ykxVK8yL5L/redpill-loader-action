@@ -107,11 +107,9 @@ cat ./config/${dsmodel}/${build_para}/config.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-misc/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/e1000/rpext-index.json
 # add optional ext
-#./ext-manager.sh add https://raw.githubusercontent.com/dogodefi/mpt3sas/offical/rpext-index.json
-#./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-virtio/rpext-index.json
-#./ext-manager.sh add https://raw.githubusercontent.com/dogodefi/redpill-ext/master/acpid/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/dogodefi/mpt3sas/offical/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-virtio/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-acpid/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-virtio/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt3sas/rpext-index.json
 sudo ./build-loader.sh ${dsmodel} '7.1.0-'${os_version}
 mv images/redpill-${dsmodel}*.img ${root}/output/
 cd ${root}
