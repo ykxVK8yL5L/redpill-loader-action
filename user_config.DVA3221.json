@@ -2,11 +2,11 @@
   "extra_cmdline": {
     "vid": "0x46f4",
     "pid": "0x0001",
-    "SasIdxMap": "0",
-    "SataPortMap": "48", 
-    "DiskIdxMap": "0004",
-    "sn": "1130LWN123456",
-    "mac1": "001132123456"
+    "sn": "20C0SJRHGGSTS",
+    "mac1": "001132e574db",
+    "mac2": "001132e574dc",
+    "mac3": "001132e574dd",
+    "mac4": "001132e574de"
   },
   "synoinfo": {
     "supportsystemperature": "no",
