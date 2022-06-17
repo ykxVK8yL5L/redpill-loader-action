@@ -106,6 +106,8 @@ cat ./config/${dsmodel}/${build_para}/config.json
 # 7.1.0 must add this ext
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-misc/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/e1000/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/e1000e/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/vmxnet3/rpext-index.json
 # add optional ext
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-acpid/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-virtio/rpext-index.json
