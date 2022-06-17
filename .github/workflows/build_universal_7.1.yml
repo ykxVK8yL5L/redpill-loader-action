@@ -6,11 +6,11 @@ on:
       dsmodel:
         description: 'Input Full DSM model [DS3622xs+|RS4021xs+|DVA3221|DS918+|DS920+|DS3615xs]'
         required: true
-        default: 'DS3622xs+'
+        default: 'DS918+'
       os_version:
         description: 'Must build DSM7.1 and after DSM versions'
         required: true
-        default: '42621'
+        default: '42661'
 #       pat-address:
 #         description: 'Pat file URL'
 #         required: true
