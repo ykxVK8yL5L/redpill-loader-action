@@ -46,9 +46,9 @@ esac
 sudo apt-get update && sudo apt-get install --yes --no-install-recommends ca-certificates build-essential git libssl-dev curl cpio bspatch vim gettext bc bison flex dosfstools kmod jq
 root=`pwd`
 os_version=$2
-pat_address="https://global.download.synology.com/download/DSM/release/7.1/"${os_version}"/DSM_"${dsmodel}"_"${os_version}".pat"
+pat_address="https://global.download.synology.com/download/DSM/release/7.1/"${os_version}-1"/DSM_"${dsmodel}"_"${os_version}".pat"
 echo ${pat_address}
-#https://global.download.synology.com/download/DSM/release/7.1/42621/DSM_DS3622xs%2B_42621.pat
+#https://global.download.synology.com/download/DSM/release/7.1/42621-1/DSM_DS3622xs%2B_42621.pat
 
 workpath=${arch}"-7.1.0"
 mkdir $workpath
